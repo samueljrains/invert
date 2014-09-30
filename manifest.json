@@ -1,0 +1,32 @@
+﻿{
+  "name" : "Inverter",
+  "version" : "0.0.1",
+  "manifest_version": 2,
+  "description" : "Invert images for users with OS level color inversion enabled.",
+  "background" : {
+    "scripts" : ["background.js"],
+    "persistent" : true
+  },
+  "browser_action" :
+  {
+    "default_icon" : {
+      "19" : "icons/19x19.png",
+      "38" : "icons/38x38.png"
+    },
+    "default_title" : "Invert it!"
+  },
+  "permissions" : [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts" : [
+    {
+      "matches" : ["http://*/*","https://*/*" ],
+      "js": ["contentscript.js"]
+    }
+  ],
+  "icons" : {
+    "128" : "icons/128x128.png"
+  }
+}
