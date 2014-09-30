@@ -8,8 +8,11 @@ Installation
 =============
 
 1) Clone/Fork/Download the repository (if a .zip, extract the folder first).
-2) In Google Chrome navigate to 'chrome://extensions',
-3) Check 'Developer Mode' in the upper-right hand side of the screen.
-4) Click the 'Load unpacked extension...' box to open up a new file selection screen.
-5) Find where the repository has been sotred on your computer and click OK.
 
+2) In Google Chrome navigate to 'chrome://extensions'.
+
+3) Check 'Developer Mode' in the upper-right hand side of the screen.
+
+4) Click the 'Load unpacked extension...' box to open up a new file selection screen.
+
+5) Find where the repository has been sotred on your computer and click OK.
