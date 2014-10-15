@@ -15,4 +15,4 @@ Installation
 
 4) Click the 'Load unpacked extension...' box to open up a new file selection screen.
 
-5) Find where the repository has been sotred on your computer and click OK.
+5) Find where the repository has been stored on your computer and click OK.
